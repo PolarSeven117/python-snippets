@@ -6,7 +6,7 @@ A repo of random python scripts
 Description
 This script extracts and consolidates fonts from InDesign documents (.indd) into a single output folder.
 
-Usage
+* Usage * 
 python package_fonts.py <target_path>
 <target_path>: Path to an InDesign file or a folder containing multiple .indd files.
 
