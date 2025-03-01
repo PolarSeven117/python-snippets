@@ -39,6 +39,7 @@ def package_indesign_fonts_combined(target_path, output_folder="packaged_fonts")
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
+    # Cycle through InDesign files
     for file_path in indesign_files:
         try:
             # Open the InDesign document
